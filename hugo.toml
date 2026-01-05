@@ -6,7 +6,7 @@ theme = 'terminal'
 [params]
   contentTypeName = "posts"
   themeColor = "blue"
-  showMenuItems = 3
+  showMenuItems = 4
   fullWidthTheme = false
   centerTheme = true
 
@@ -19,18 +19,23 @@ theme = 'terminal'
 
 [menu]
   [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about"
+    weight = 1
+  [[menu.main]]
     identifier = "blog"
     name = "Blog"
     url = "/posts"
-    weight = 1
+    weight = 2
   [[menu.main]]
     identifier = "projects"
     name = "Projects"
     url = "/projects"
-    weight = 2
-  [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about"
     weight = 3
+  [[menu.main]]
+    identifier = "resume"
+    name = "Resume"
+    url = "/resume"
+    weight = 4
 
