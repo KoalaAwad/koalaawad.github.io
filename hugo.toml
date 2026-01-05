@@ -1,4 +1,4 @@
-baseURL = 'https://awad.github.io/'
+baseURL = 'https://koalaawad.github.io/awad.github.io/'
 languageCode = 'en-us'
 title = 'Awad'
 theme = 'terminal'
