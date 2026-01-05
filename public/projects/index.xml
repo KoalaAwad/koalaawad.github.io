@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Awad</title>
+    <link>http://localhost:1313/projects/</link>
+    <description>Recent content in Projects on Awad</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 05 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My GitHub Project</title>
+      <link>http://localhost:1313/projects/my-project/</link>
+      <pubDate>Mon, 05 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/my-project/</guid>
+      <description>&lt;p&gt;Description of my GitHub project goes here.&lt;/p&gt;&#xA;&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Feature 1&lt;/li&gt;&#xA;&lt;li&gt;Feature 2&lt;/li&gt;&#xA;&lt;li&gt;Feature 3&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;technologies-used&#34;&gt;Technologies Used&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Technology 1&lt;/li&gt;&#xA;&lt;li&gt;Technology 2&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/awad/your-project&#34;&gt;View on GitHub&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

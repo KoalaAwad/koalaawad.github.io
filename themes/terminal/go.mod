@@ -1,3 +1,3 @@
-module awad.github.io/module
+module github.com/panr/hugo-theme-terminal/v4
 
-go 1.25.5
+go 1.19
