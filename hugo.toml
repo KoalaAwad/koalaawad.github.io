@@ -2,7 +2,9 @@ baseURL = 'https://koalaawad.github.io/'
 languageCode = 'en-us'
 title = 'Awad'
 theme = 'terminal'
-paginate = 5
+
+[pagination]
+  pagerSize = 5
 
 [params]
   contentTypeName = "posts"
