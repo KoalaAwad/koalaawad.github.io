@@ -44,10 +44,6 @@ User authentication state is typically stored server-side (often in a shared sto
 
 In stateless authentication, the server does **not track user state**. Each request contains all the information needed to authenticate the user. The server validates the data cryptographically and makes an authorization decision without storing session state.
 
----
-
-### High-Level Trade-offs
-
 - **Stateful** = easier revocation and control  
 - **Stateless** = harder revocation, simpler distribution  
 
@@ -73,6 +69,8 @@ This article focuses on two concrete mechanisms:
 
 - **Session-based authentication**
 - **Token-based authentication**
+
+---
 
 ## Sources
 
