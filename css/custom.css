@@ -1,29 +1,91 @@
+
+/* color scheme v*/
+
+:root {
+  --bg-main: #777C6D;
+  --bg-surface: #B7B89F;
+  --bg-card: #CBCBCB;
+  --bg-soft: #EEEEEE;
+
+  --text-main: #1f1f1f;
+  --text-muted: #4a4a4a;
+  --border-soft: rgba(0, 0, 0, 0.15);
+}
+
+
+html {
+  background-color: var(--bg-main);
+}
+body {
+  color: var(--text-main);
+}
+.navbar,
+.navbar-dark {
+  background-color: var(--bg-surface) !important;
+  box-shadow: 0 2px 6px var(--border-soft);
+}
+#experience,
+#projects,
+#blogs {
+  background-color: var(--bg-surface);
+  border-radius: 14px;
+  padding: 3rem 2rem;
+  margin-top: 4rem;
+}
+.exp,
+.tab-pane,
+.list-group-item {
+  background-color: var(--bg-card);
+  border-radius: 12px;
+  padding: 1.5rem;
+}
+.list-group-item {
+  border: none;
+}
+.btn-outline-primary {
+  color: var(--text-main);
+  border-color: var(--text-main);
+}
+
+.btn-outline-primary:hover {
+  background-color: var(--bg-soft);
+  color: #000;
+}
+.text-primary {
+  color: #2c2c2c !important;
+}
+
+.text-secondary {
+  color: #3a3a3a !important;
+}
+
+.text-muted,
+.text-grey {
+  color: var(--text-muted) !important;
+}
+.nav-link:hover,
+.dropdown-item:hover {
+  background-color: var(--bg-soft);
+}
+#loading-screen {
+  background-color: var(--bg-main);
+}
+
+.spinner {
+  border-top-color: var(--bg-soft);
+}
+
+.lock {
+  color: var(--bg-soft);
+}
+
+
 html {
     scroll-behavior: smooth;
     scrollbar-width: thin;
     scrollbar-color: rgb(136, 136, 136, 50%) #2d3049;  
 }
 
-/* Custom Scrollbar Styles for WebKit Browsers
-::-webkit-scrollbar {
-  width: 12px;
-}
-
-::-webkit-scrollbar-track {
-  background: #2d3049;
-  border-radius: 10px;
-}
-
-::-webkit-scrollbar-thumb {
-  background: rgb(136, 136, 136, 50%);
-  border-radius: 10px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: #555;
-}
- */
-/* Loading Screen */
 #loading-screen {
     position: fixed;
     top: 0;
@@ -38,7 +100,6 @@ html {
     flex-direction: column;
   }
   
-  /* Spinner */
   .spinner {
     border: 8px solid rgba(255, 255, 255, 0.1);
     border-top: 8px solid #fff;
