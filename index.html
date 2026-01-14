@@ -42,9 +42,9 @@
                 Contact Me
               </button>
               <div class="dropdown-menu" x-placement="bottom-start" style="position: absolute; will-change: transform; top: 0px; transform: translate3d(0px, 56px, 0px);">
-                <div class="dropdown-item text-mono text-info"><i class="fas fa-envelope"></i>AbdelAwad7536@gmail.com</div>
-                <div class="dropdown-item text-mono text-info"><i class="fas fa-phone"></i>+971(56)752-5139</div>
-                <a href="https://github.com/KoalaAwad" class="dropdown-item text-mono text-info" target="_blank"><i class="fab fa-github"></i>GitHub</a>
+                <div class="dropdown-item text-mono text-info"><i class="fas fa-envelope"></i> AbdelAwad7536@gmail.com</div>
+                <div class="dropdown-item text-mono text-info"><i class="fas fa-phone"></i> +971(6)752-5139</div>
+                <a href="https://github.com/KoalaAwad" class="dropdown-item text-mono text-info" target="_blank"><i class="fab fa-github"></i> GitHub</a>
                 <a href="https://www.linkedin.com/in/abdelrahman-yasser-awad/" class="dropdown-item text-mono text-info" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
               </div>
             </div>
@@ -71,7 +71,7 @@
             <h1 class="text-mono text-secondary">Hi!</h1>
 
             <p>
-                I’m Abdelrahman Awad, but my friends call me 'Awad', aspiring software engineer and cybersecurity enthusiast.
+                I’m Abdelrahman Awad, but my friends just call me Awad, aspiring software engineer and cybersecurity enthusiast.
             </p>
 
             <p>
@@ -164,8 +164,11 @@
                     </div>
 
                     <div class="tab-pane fade exp" id="proj2" role="tabpanel" aria-labelledby="proj2-tab">
-                        <a href="https://github.com/windowsoffender/RustBucket" class="text-mono text-primary" target="_blank">Rustbucket <i class="fas fa-link"></i></a>
-                        <p class="mb-2 text-grey text-spacey"><i class="fas fa-terminal text-secondary mr-2"></i>A project built with Rust.</p>
+                        <a href="https://github.com/KoalaAwad/RustBucket" class="text-mono text-primary" target="_blank">RustBucket <i class="fas fa-link"></i></a>
+                        <p class="mb-2 text-grey text-spacey"><i class="fas fa-terminal text-secondary mr-2"></i>A simple Command and Control (C2) framework written in Rust.</p>
+                        <p class="mb-2 text-grey text-spacey"><i class="fas fa-terminal text-secondary mr-2"></i>Developed as a learning project to understand Rust and the workings of C2 frameworks.</p>
+                        <p class="mb-2 text-grey text-spacey"><i class="fas fa-terminal text-secondary mr-2"></i>Features a server-client architecture with customizable ports and cross-compilation support for Windows payloads.</p>
+                        <p class="mb-2 text-grey text-spacey"><i class="fas fa-terminal text-secondary mr-2"></i>Includes plans for enhanced state management, database integration, and improved CLI experience.</p>
                     </div>
 
                 </div>
@@ -208,17 +211,17 @@
       // Spinner hides after a brief delay
       setTimeout(function() {
         document.querySelector('.spinner').style.display = 'none';
-        
+
         // Lock unlocks
         const lockIcon = document.querySelector('.lock i');
         lockIcon.classList.remove('fa-lock');
         lockIcon.classList.add('fa-lock-open');
         lockIcon.style.transform = 'rotate(0deg)';
-        
+
         // After the lock unlocks, the page fades in
         setTimeout(function() {
           document.getElementById('loading-screen').style.display = 'none';
-          
+
           // Fade in the main content
           document.querySelectorAll('body > :not(#loading-screen)').forEach(function(element) {
             element.style.opacity = '1';
@@ -249,7 +252,7 @@
 });
 
   </script>
-  
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
