@@ -80,6 +80,123 @@ body > :not(#loading-screen) {
     transition: opacity 1s ease, visibility 1s ease;
 }
 
+/* ========================= */
+/* RESPONSIVE MOBILE STYLES */
+/* ========================= */
+
+@media (max-width: 768px) {
+    body > :not(#loading-screen) {
+        padding-top: 80px;
+    }
+
+    .navbar {
+        height: auto;
+        min-height: 70px;
+        padding: 8px 16px;
+    }
+
+    .navbar-gif {
+        height: 45px;
+    }
+
+    .display-2 {
+        font-size: 2rem !important;
+    }
+
+    .display-4 {
+        font-size: 1.5rem !important;
+    }
+
+    .lead {
+        font-size: 0.9rem !important;
+    }
+
+    .exp-header {
+        flex-direction: column;
+        gap: 4px;
+    }
+
+    .exp-header h4 {
+        font-size: 1rem;
+    }
+
+    .jumbotron p {
+        font-size: 0.9rem;
+    }
+
+    .badge {
+        font-size: 0.75rem !important;
+        padding: 0.4rem 0.6rem !important;
+    }
+
+    .pendulum {
+        transform: scale(0.7);
+        margin: 40px auto;
+    }
+
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    /* Project tabs - horizontal on mobile */
+    #project-list {
+        flex-direction: row !important;
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+
+    #project-list .nav-link {
+        margin: 4px !important;
+        font-size: 0.85rem;
+    }
+
+    .tab-content {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    /* Blog list responsive */
+    .list-group-item h5 {
+        font-size: 1rem;
+    }
+
+    .list-group-item p {
+        font-size: 0.85rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .display-2 {
+        font-size: 1.6rem !important;
+    }
+
+    .display-4 {
+        font-size: 1.25rem !important;
+    }
+
+    .navbar-nav {
+        padding: 10px 0;
+    }
+
+    .navbar-nav a {
+        padding: 8px 12px !important;
+    }
+
+    .btn-group {
+        width: 100%;
+        margin-top: 8px;
+    }
+
+    .btn-group .btn {
+        width: 100%;
+    }
+
+    .koala-sparkle-link svg {
+        display: none;
+    }
+}
+
 /* Navbar */
 
 .navbar {
