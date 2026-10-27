@@ -5,5 +5,6 @@
   "assets": {
     "directory": ".",
     "binding": "ASSETS"
-  }
+  },
+  "routes": [{ "pattern": "portfolio.koala.rip", "custom_domain": true }]
 }

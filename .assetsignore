@@ -6,5 +6,3 @@
 wrangler.jsonc
 src
 node_modules
-# Fallback copy for GitHub Pages only; the Worker serves the live CV.
-resume.pdf
