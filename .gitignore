@@ -32,3 +32,6 @@ build/
 # Ignore miscellaneous
 .vscode/
 *.iml
+
+# Wrangler local state
+.wrangler/
