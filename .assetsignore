@@ -6,3 +6,6 @@
 wrangler.jsonc
 src
 node_modules
+# Design working files
+.taste-skill
+assets/credits.json

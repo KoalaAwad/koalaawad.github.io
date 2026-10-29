@@ -35,3 +35,4 @@ build/
 
 # Wrangler local state
 .wrangler/
+.taste-skill/
